@@ -7,7 +7,7 @@ const VideoDetails =  () => {
    useEffect(() => {
      const fetchData = async () => {
     try {
-        const response = await axios.get('http://localhost:5000/api/getVideos')
+        const response = await axios.get('https://youtube-backend-nine.vercel.app/api/getVideos')
         console.log("Response: ", response)
         setVideos(response.data.items);      
       }
