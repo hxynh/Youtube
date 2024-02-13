@@ -1,0 +1,1 @@
+export const allCategories = ["All", "Music", "Mixes", "Live", "K-pop", "Chinese Songs", "Drums", "Kalimba", "Morgan Wallen", "Contemporary Worship Music", "Recently Uploaded", "New", "Background Music"];
